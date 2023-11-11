@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="username">username</string>
+    <string name="Enter_Your_Username">Enter Your Username</string>
+    <string name="password">password</string>
+    <string name="Enter_Your_Password">Enter Your Password</string>
+    <string name="mode_manual">Manual</string>
+    <string name="mode_automatic">Auto</string>
+    <string name="on">Buka</string>
+    <string name="off">Tutup</string>
+    <string name="pager">Pagar</string>
+    <string name="lampu1">Lampu Depan</string>
+    <string name="lampu2">Lampu Studio</string>
+    <string name="switch_on">ON</string>
+    <string name="switch_off">OFF</string>
+    <string name="logout">Logout</string>
+    <string name="Otomatis">Mode Otomatis Aktif</string>
+    <string name="Manual">Mode Manual Aktif</string>
+    <string name="Mode">%s</string>
+    <string name="kondisi">Kondisi</string>
+</resources>

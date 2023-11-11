@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/Background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"
+        />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/img_1"
+        android:src="@drawable/logobaru"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img_2"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/img_2"
+        android:padding="20dp"
+        android:id="@+id/ly_1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:hint="Enter Your Username"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/White"
+            android:id="@+id/username"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:hint="@string/Enter_Your_Password"
+            android:autofillHints="password"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/White"
+            android:layout_below="@id/username"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_1"
+        android:width="300dp"
+        android:text="LOGIN"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/White"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/btn_1"
+        />
+
+
+</RelativeLayout>

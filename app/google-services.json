@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474796033756",
+    "project_id": "smarthomezonaphoto",
+    "storage_bucket": "smarthomezonaphoto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474796033756:android:cf63cd1b5172c9d3ff1619",
+        "android_client_info": {
+          "package_name": "com.example.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474796033756-4dt5gljc70qqln5sij98t59u1ko59pm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo36ZEYf0zRJ2q7XDrvhG8emA5cz0iV9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474796033756-4dt5gljc70qqln5sij98t59u1ko59pm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
